@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-github-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloGithub/HelloGithubWebPart.js",
+          "manifest": "./src/webparts/helloGithub/HelloGithubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloGithubWebPartStrings": "lib/webparts/helloGithub/loc/{locale}.js"
+  }
+}
